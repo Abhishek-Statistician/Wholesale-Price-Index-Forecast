@@ -4,11 +4,11 @@ This project focuses on analyzing price index data, comparing different predicti
 
 Methodology:- 
 Model Fitting:
-ARIMA Model (AutoRegressive Integrated Moving Average)
-Double Exponential Smoothing (Holt’s Linear Trend Model)
+ARIMA Model (AutoRegressive Integrated Moving Average), 
+Double Exponential Smoothing (Holt’s Linear Trend Model), 
 Facebook Prophet (Additive forecasting model)
-Model Evaluation:
 
+Model Evaluation:
 All models were evaluated using Root Mean Squared Error (RMSE) to determine the best predictive model.
 Statistical Tests:
 ARCH Test: Checked for the presence of heteroskedasticity (ARCH effect) to assess the necessity of GARCH modeling and to better explain the ARIMA model.
